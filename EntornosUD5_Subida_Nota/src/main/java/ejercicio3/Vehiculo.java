@@ -1,9 +1,9 @@
 package ejercicio3;
 
 public abstract class Vehiculo {
-	private String color;
-	private int ruedas;
-	private String modelo;
+	protected String color;
+	protected int ruedas;
+	protected String modelo;
 
 	public Vehiculo(String color, int ruedas, String modelo) {
 		this.color = color;

@@ -2,8 +2,8 @@ package ejercicio1;
 
 public class Becario extends Sueldos {
 
-	String inicio;
-	String fin;
+	private String inicio;
+	private String fin;
 
 	public Becario(String nombre, String puesto, double salario, String mes, String inicio, String fin) {
 		super(nombre, puesto, salario, mes);

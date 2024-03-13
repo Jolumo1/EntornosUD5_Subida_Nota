@@ -2,10 +2,10 @@ package ejercicio1;
 
 public abstract class Sueldos implements Vacaciones, Reuniones {
 
-    String nombre;
-    String puesto;
-    double salario;
-    String mes;
+    protected String nombre;
+    protected String puesto;
+    protected double salario;
+    protected String mes;
 
     public Sueldos(String nombre, String puesto, double salario, String mes) {
         this.nombre = nombre;

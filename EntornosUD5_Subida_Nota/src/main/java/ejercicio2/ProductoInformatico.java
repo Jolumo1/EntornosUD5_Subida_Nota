@@ -1,8 +1,8 @@
 package ejercicio2;
 
 public abstract class ProductoInformatico {
-    String nombre;
-    double precio;
+    protected String nombre;
+    protected double precio;
 
     public ProductoInformatico(String nombre, double precio) {
         this.nombre = nombre;

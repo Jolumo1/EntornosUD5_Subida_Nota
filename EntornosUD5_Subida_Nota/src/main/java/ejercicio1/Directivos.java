@@ -2,7 +2,7 @@ package ejercicio1;
 
 public class Directivos extends Sueldos{
 
-	 double dividendos;
+	 private double dividendos;
 
 	    public Directivos(String nombre, String puesto, double salario, String mes, double dividendos) {
 	        super(nombre, puesto, salario, mes);
